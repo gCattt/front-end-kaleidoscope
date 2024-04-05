@@ -23,5 +23,5 @@ The _test_ directory contains...
 
 <hr>
 
-### Acknowledgements
+### References
 - https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/index.html
