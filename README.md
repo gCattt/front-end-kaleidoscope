@@ -3,13 +3,13 @@
 A little compiler for a non-trivial language built for the Programming Languages and Compilers course @ UniMoRe.
 
 ## Table of Contents
-- [Dependencies](#dependencies)
+- [Setup](#setup)
 - [Usage](#usage)
-- [Testing](#testing)
+  - [Testing](#testing)
 - [Authors](#authors)
 - [References](#references)
   
-## Dependencies
+## Setup
 For this project you need to install [llvm-17](https://releases.llvm.org/), [bison](https://www.gnu.org/software/bison/bison.html) and [flex](https://gothub.frontendfriendly.xyz/westes/flex/blob/master/README.md) on your machine.
 
 Install **llvm-17** using the [automatic script](https://apt.llvm.org/).
@@ -45,7 +45,7 @@ This will create the **kcomp** compiler
 ./tobinary <file.ll>
 ```
 
-## Testing
+### Testing
 Use the **test** folder as a "_workspace_" to create your own ```.k``` file and compile them adding proper instructions in the Makefile:
 - floor &rarr; rounds down a number to the closest integer <= to that number (whole or fractional);
 - rand  &rarr; generate and print 10 pseudorandom numbers;
