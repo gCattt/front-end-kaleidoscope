@@ -1,6 +1,6 @@
 # front-end-kaleidoscope
 
-A little compiler for a non-trivial language built for the Programming Languages and Compilers course @ UniMORE.
+A little compiler for a non-trivial language built for the Programming Languages and Compilers course @ UniMoRe.
 
 ## Dependencies
 For this project you need to install [llvm-17](https://releases.llvm.org/), [bison](https://www.gnu.org/software/bison/bison.html) and [flex](https://gothub.frontendfriendly.xyz/westes/flex/blob/master/README.md) on your machine.
